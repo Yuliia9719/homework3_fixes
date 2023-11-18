@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Registration</title>
+</head>
+
+<body>
+  <div class="bg-image">
+    <div class="bg-overlay"></div>
+
+  </div>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-list">
+          <a class="navbar-link" href="../index.html">Index</a>
+          <a class="navbar-link" href="articles.html">Articles</a>
+          <a class="navbar-link" href="catalog.html">Catalog</a>
+          <a class="navbar-link" href="gallery.html">Gallery</a>
+          <a class="navbar-link" href="page-nav.html">Page-nav</a>
+          <a class="navbar-link" href="contacts.html">Contacts</a>
+          <a class="navbar-link active">Registration</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="h1">Registration</h1>
+
+  <hr>
+
+  <div class="container">
+    <main class="main">
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+        <fieldset>
+          <legend>Personal information</legend>
+          <div class="form-group">
+            <label for="fname">First name</label>
+            <input name="first-name" type="text" id="fname" placeholder="First name">
+          </div>
+
+          <div class="form-group">
+            <label for="lname">Last name</label>
+            <input name="last-name" type="text" id="lname" placeholder="Last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input name="email" type="email" id="email" placeholder="test@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" type="password" id="password" placeholder="password">
+          </div>
+
+          <div class="form-group">
+            <label for="birthday">Date of birth</label>
+            <input name="birthday" type="date" id="birthday">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Choose sex</legend>
+          <div class="form-group">
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Male</label>
+
+          </div>
+
+          <div class="form-group">
+
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Female</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Favorite kitchen</legend>
+          <div class="form-group">
+
+            <input type="checkbox" id="kit-ua" name="kit-ua">
+            <label for="kit-ua">Ukrainian</label>
+          </div>
+
+          <div class="form-group">
+
+            <input type="checkbox" id="kit-it" name="kit-it">
+            <label for="kit-it">Italian</label>
+          </div>
+
+          <div class="form-group">
+
+            <input type="checkbox" id="kit-fr" name="kit-fr">
+            <label for="kit-fr">French</label>
+          </div>
+
+          <div class="form-group">
+
+            <input type="checkbox" id="kit-pl" name="kit-pl">
+            <label for="kit-pl">Polish</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional information</legend>
+          <div class="form-group">
+            <label for="file">Add file</label>
+            <input type="file" name="file" id="file">
+          </div>
+
+          <div class="form-group">
+            <label for="site">My site</label>
+            <input type="url" name="site" id="site" value="https://mysite.name">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Leave a comment</legend>
+          <div class="form-group">
+            <label for="text">Comment</label>
+            <textarea name="text" id="text" cols="20" rows="7" placeholder="Comment"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Actions</legend>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </fieldset>
+
+      </form>
+    </main>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div>&copy;Yuliia Len</div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
