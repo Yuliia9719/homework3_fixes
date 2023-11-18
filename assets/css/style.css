@@ -41,7 +41,6 @@ a {
   font-size: 65px;
 }
 
-
 .project-title::after {
   content: "";
   background: white;
@@ -108,7 +107,6 @@ a {
   justify-content: center;
   gap: 25px;
 }
-
 
 .navbar-link {
   display: block;
